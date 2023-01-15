@@ -284,3 +284,101 @@ main {
 .sponsor-item img:first-child {
   margin-top: 20px;
 }
+
+/* bonus part style  */
+/* contact part start */
+#contact {
+    width: 100%;
+    background-color: #2d3035;
+    padding: 50px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-details h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: regular;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.contact-details p {
+    font-size: 20px;
+    color: #fff;
+    font-family: regular;
+    font-weight: 400;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.contact-form form input,
+textarea {
+    width: 40%;
+}
+
+.contact-form form input {
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact-form form .textarea {
+    margin: 15px 0px;
+}
+
+.contact-form form textarea {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.contact-form form .contact-btn {
+    padding: 10px 10px;
+    background-color: #a4b9be;
+    border: 1px solid greenyellow;
+    color: #fff;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 5px;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-icon i {
+    color: #fff;
+    font-size: 25px;
+    background-color: #9599E2;
+    padding: 15px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.social-icon i:hover {
+    background-color: #FBAB7E;
+}
+
+footer{
+    margin-bottom: 50px;
+}
+.footer-bg {
+    text-align: center;
+    background-color: #FFF4E7;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+.footer-bg  p {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+}
