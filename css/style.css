@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul, ol {
+    list-style-type: none;
+}
+.container {
+    max-width: 1160px;
+    width: 98%;
+    margin: 0 auto;
+}
+img {
+    width: 100%;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part style  */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 60px 0px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main h2 {
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li:last-child{
+    margin-right: none;
+}
+nav ul li a {
+    font-size:  18px;
+    color: #424242;
+    font-weight: 500;
+}
+
+/* banner part style  */
+.banner-part-main {
+    text-align: center;
+    margin-top: 50px;
+}
+.banner-part-main h2{
+    font-size: 60px;
+    color: #131313;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.banner-part-main p{
+    font-size: 18px;
+    color: #727272;
+    font-weight: 400;
+    width: 70%;
+    margin: 0 auto;
+}
+.banner-part-main button {
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid #FF900E;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+/* main part style  */
+main {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.feature-main {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.feature-images {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.feature-details {
+    width: 50%;
+}
+.feature-details h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #131313;
+    margin-bottom: 20px;
+}
+.feature-details .feature-title{
+    color: #727272;
+}
+.feature-details .feature-title2{
+    color: #FF900E;
+}
+.feature-details p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 20px;
+}
