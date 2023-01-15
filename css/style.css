@@ -230,7 +230,11 @@ main {
   border: 1px solid #ff900e;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.4) 1px 7px 29px 1px;
+  transition: all 0.8s ease;
   padding: 15px;
+}
+.facts-item:hover {
+  background-color: #ddd;
 }
 .facts-item img {
   width: 45px;
@@ -248,4 +252,35 @@ main {
   font-weight: 600;
   color: #727272;
   margin-bottom: 20px;
+}
+
+/* sponsor part style  */
+.sponsor-main {
+  text-align: center;
+  margin-top: 100px;
+}
+.sponsor-main h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 30px;
+}
+.sponsor-main p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  width: 70%;
+  margin: 0 auto;
+}
+.sponsor-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+.sponsor-item img {
+  width: 100%;
+}
+.sponsor-item img:first-child {
+  margin-top: 20px;
 }
