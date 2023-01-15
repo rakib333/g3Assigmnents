@@ -314,7 +314,7 @@ main {
 }
 
 .contact-form form input,
-textarea {
+textarea , button{
     width: 40%;
 }
 
@@ -345,7 +345,6 @@ textarea {
     border: 1px solid greenyellow;
     color: #fff;
     cursor: pointer;
-    width: 40%;
     border-radius: 5px;
 }
 
@@ -381,4 +380,69 @@ footer{
     color: #424242;
     font-size: 20px;
     font-weight: 400;
+}
+
+
+/* media query style  */
+/* small device  */
+
+@media screen and (max-width: 576px) {
+    .header-main {
+        flex-direction: column;
+        gap: 50px;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin-bottom: 20px;
+    }
+    /* feature part  */
+    .feature-main {
+        flex-direction: column;
+    }
+    .feature-details{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* service part  */
+    .service-main {
+        flex-direction: column;
+    }
+    .service-details {
+        width: 100%;
+    }
+    .service-images {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    /* facts part  */
+    .facts-main {
+        text-align: center;
+    }
+    .facts-details {
+        flex-direction: column;
+    }
+
+    /* sponsor part  */
+    .sponsor-item {
+        flex-direction: column;
+    }
+    .sponsor-item img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* contact part style  */
+    .contact-form form input,
+    textarea, button {
+        width: 80%;
+    }
 }
