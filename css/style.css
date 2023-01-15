@@ -182,20 +182,20 @@ main {
 }
 
 .service-images img {
-  height: 80%;
+  height: 84%;
 }
 .service-images button {
   position: relative;
   bottom: 200px;
-  left: -30px;
-  padding: 20px 25px;
+  left: -20px;
+  padding: 10px 20px;
   background-color: #ff900e;
   border-radius: 10px;
   border: 1px solid #ff900e;
   cursor: pointer;
 }
 .service-images button span {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   font-weight: 800;
 }
@@ -280,9 +280,9 @@ main {
 }
 .sponsor-item img {
   width: 100%;
-}
-.sponsor-item img:first-child {
-  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 15px;
+  border-radius: 10px;
 }
 
 /* bonus part style  */
@@ -314,7 +314,7 @@ main {
 }
 
 .contact-form form input,
-textarea , button{
+textarea , .contact-btn{
     width: 40%;
 }
 
@@ -442,7 +442,7 @@ footer{
 
     /* contact part style  */
     .contact-form form input,
-    textarea, button {
+    textarea, .contact-btn {
         width: 80%;
     }
 }
