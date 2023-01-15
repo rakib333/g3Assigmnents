@@ -142,7 +142,7 @@ main {
 /* service part style  */
 .service-main {
     display: flex;
-    gap: 40px;
+    gap: 80px;
     margin-top: 80px;
 }
 .service-details {
@@ -185,5 +185,25 @@ main {
 }
 
 .service-images img {
-    height: 90%;
+    height: 80%;
+}
+.service-images button {
+    position: relative;
+    bottom: 200px;
+    left: -30px;
+    padding: 20px 25px;
+    background-color: #FF900E;
+    border-radius: 10px;
+    border: 1px solid #FF900E;
+    cursor: pointer;
+}
+.service-images button span {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 800;
+}
+.service-images button p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
 }
