@@ -104,7 +104,9 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-
+.feature-images img {
+    box-shadow: 10px 3px 6px #000;
+}
 .feature-details {
     width: 50%;
 }
@@ -125,4 +127,63 @@ main {
     font-weight: 400;
     color: #727272;
     margin-bottom: 20px;
+}
+.feature-details .feature-btn{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 25px;
+    border: 1px solid #fff;
+    background-color: #FF900E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* service part style  */
+.service-main {
+    display: flex;
+    gap: 40px;
+    margin-top: 80px;
+}
+.service-details {
+    width: 50%;
+}
+.service-details h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #131313;
+    border-left: 4px solid #FF900E;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+.service-details p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.feature-item {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+.feature-item h3 {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.feature-item p {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.service-images {
+    width: 50%;
+}
+
+.service-images img {
+    height: 90%;
 }
